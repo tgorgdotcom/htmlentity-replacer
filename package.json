@@ -1,56 +1,62 @@
 {
-    "name": "htmlentity-replacer",
-    "displayName": "HTML accented character converter",
-    "description": "VSCode extension for quick replacements of accented characters into html entities.",
-    "version": "1.5.0",
-    "publisher": "enriquein",
-    "license": "SEE LICENSE IN LICENSE.md",
-    "engines": {
-        "vscode": "^1.28.0"
-    },
-    "categories": [
-        "Other",
-        "Formatters"
-    ],
-    "keywords": [
-        "html special character",
-        "accented characters",
-        "html entity",
-        "html entities"
-    ],
-    "activationEvents": [
-        "onCommand:extension.htmlentity-replacer"
-    ],
-    "main": "dist/extension",
-    "contributes": {
-        "commands": [
-            {
-                "command": "extension.htmlentity-replacer",
-                "title": "Replace special characters with Html entities"
-            }
-        ]
-    },
-    "scripts": {
-        "postinstall": "node ./node_modules/vscode/bin/install",
-        "vscode:prepublish": "webpack --mode production",
-        "compile": "webpack --mode none",
-        "watch": "webpack --mode none --watch"
-    },
-    "devDependencies": {
-        "@types/mocha": "^2.2.42",
-        "@types/node": "^8.10.25",
-        "acorn": "^6.1.1",
-        "eslint": "^4.11.0",
-        "typescript": "^2.6.1",
-        "vscode": "^1.1.21",
-        "webpack": "^4.33.0",
-        "webpack-cli": "^3.3.2"
-    },
-    "dependencies": {
-        "lodash.forin": "^4.4.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/enriquein/htmlentity-replacer"
-    }
+	"name": "htmlentity-replacer",
+	"displayName": "HTML accented character converter",
+	"description": "VSCode extension for quick replacements of accented characters into html entities.",
+	"version": "1.5.0",
+	"publisher": "enriquein",
+	"license": "SEE LICENSE IN LICENSE.md",
+	"engines": {
+		"vscode": "^1.28.0"
+	},
+	"categories": [
+		"Other",
+		"Formatters"
+	],
+	"keywords": [
+		"html special character",
+		"accented characters",
+		"html entity",
+		"html entities"
+	],
+	"activationEvents": [
+		"onCommand:extension.htmlentity-replacer"
+	],
+	"main": "dist/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.htmlentity-replacer",
+				"title": "Replace special characters with Html entities"
+			}
+		]
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"vscode:prepublish": "webpack --mode production",
+		"compile": "webpack --mode none",
+		"watch": "webpack --mode none --watch"
+	},
+	"devDependencies": {
+		"@types/mocha": "^2.2.42",
+		"@types/node": "^8.10.25",
+		"acorn": "^6.1.1",
+		"eslint": "^4.11.0",
+		"typescript": "^2.6.1",
+		"vscode": "^1.1.21",
+		"webpack": "^4.33.0",
+		"webpack-cli": "^3.3.2"
+	},
+	"dependencies": {
+		"lodash.forin": "^4.4.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/enriquein/htmlentity-replacer"
+	},
+	"__metadata": {
+		"id": "b75bd406-3804-4137-bf1b-dbe708e03f2c",
+		"publisherDisplayName": "enriquein",
+		"publisherId": "15a148b3-4cd9-4b19-94cd-51b13f494f2e",
+		"isPreReleaseVersion": false
+	}
 }
